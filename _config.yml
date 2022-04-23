@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Collapse Launcher
 description: An advanced launcher for Honkai Impact 3rd
+github:
+  is_project_page: false
