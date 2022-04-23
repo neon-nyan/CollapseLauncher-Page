@@ -1,3 +1,9 @@
+---
+layout: default
+title: Collapse Launcher
+description: An advanced launcher for Honkai Impact 3rd
+---
+
 ## Collapse Launcher
 
 You can use the [editor on GitHub](https://github.com/neon-nyan/CollapseLauncher-Page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
