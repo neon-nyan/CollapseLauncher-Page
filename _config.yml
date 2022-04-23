@@ -2,6 +2,3 @@ theme: jekyll-theme-cayman
 title: Collapse Launcher
 show_downloads: true
 description: An advanced launcher for Honkai Impact 3rd
-github:
-  zip_url: https://github.com/neon-nyan/CollapseLauncher/releases/download/CL-v1.0.11-pre/CL-1.0.11-preview_Installer.exe
-  another_url: https://github.com/neon-nyan/CollapseLauncher/releases/download/CL-v1.0.11-pre/CL-1.0.11-preview_Portable.7z
