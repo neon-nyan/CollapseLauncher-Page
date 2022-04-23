@@ -2,6 +2,7 @@
 layout: default
 title: Collapse Launcher
 description: An advanced launcher for Honkai Impact 3rd
+show_downloads: false
 ---
 
 ## Collapse Launcher
