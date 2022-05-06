@@ -5,7 +5,9 @@ description: An advanced launcher for Honkai Impact 3rd
 show_downloads: false
 ---
 
-## Collapse Launcher
+# What it is?
+
+Collapse Launcher is "basically" a launcher but with more features than what official launcher provides.
 
 You can use the [editor on GitHub](https://github.com/neon-nyan/CollapseLauncher-Page/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
