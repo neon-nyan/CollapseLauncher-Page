@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0" pages="3">
   <diagram name="PInvokeApproach" id="pYx6xWyPzp8Mb8gUyf2C">
-    <mxGraphModel dx="5527" dy="3733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3177" dy="2451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="VWMhmegfSZu71s8UUnAp-115" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Managed C# (NativeAOT):&lt;/span&gt;&lt;br&gt;Hi3Helper.Plugin.***.dll" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;arcSize=1;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;fontColor=#333333;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
           <mxGeometry x="1020" y="60" width="1270" height="960" as="geometry" />
         </mxCell>
-        <mxCell id="VWMhmegfSZu71s8UUnAp-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-117" target="VWMhmegfSZu71s8UUnAp-3" edge="1">
+        <mxCell id="VWMhmegfSZu71s8UUnAp-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-117" target="VWMhmegfSZu71s8UUnAp-3" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="381" y="535" />
@@ -21,8 +21,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VWMhmegfSZu71s8UUnAp-117" value="Application Main Code" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
-          <mxGeometry x="30" y="90" width="300" height="890" as="geometry" />
+        <mxCell id="VWMhmegfSZu71s8UUnAp-117" value="Application Main Code" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;fontFamily=Segoe UI Variable Text;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="30" y="40" width="300" height="990" as="geometry" />
         </mxCell>
         <mxCell id="VWMhmegfSZu71s8UUnAp-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfigWrappers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
           <mxGeometry x="450" y="40" width="300" height="440" as="geometry" />
@@ -456,7 +456,7 @@
         <mxCell id="VWMhmegfSZu71s8UUnAp-116" value="void ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
           <mxGeometry x="1070" y="780" width="470" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="VWMhmegfSZu71s8UUnAp-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-117" target="VWMhmegfSZu71s8UUnAp-9" edge="1">
+        <mxCell id="VWMhmegfSZu71s8UUnAp-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;shape=link;flowAnimation=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-117" target="VWMhmegfSZu71s8UUnAp-9" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="381" y="579" />
@@ -623,7 +623,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="PInvokeComHybridApproach" id="PEOL1qhVAOadjkp-3Joz">
-    <mxGraphModel dx="3177" dy="2451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3301" dy="2518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CfCrwYAtJTKBQAErgNIQ-0" />
         <mxCell id="CfCrwYAtJTKBQAErgNIQ-1" parent="CfCrwYAtJTKBQAErgNIQ-0" />
@@ -636,15 +636,15 @@
         <mxCell id="ykmzy-f4c8bUWu5ri4jC-0" value="Shared Project/Code&lt;br&gt;&lt;b&gt;Hi3Helper.Plugin.Core&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
           <mxGeometry x="299" y="-760" width="681" height="429" as="geometry" />
         </mxCell>
-        <mxCell id="CfCrwYAtJTKBQAErgNIQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-5" target="CfCrwYAtJTKBQAErgNIQ-6" edge="1">
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-5" target="CfCrwYAtJTKBQAErgNIQ-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-92" y="-600" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CfCrwYAtJTKBQAErgNIQ-5" value="Application Main Code" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
-          <mxGeometry x="-662" y="-990" width="300" height="890" as="geometry" />
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-5" value="Application Main Code" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;fontFamily=Segoe UI Variable Text;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-662" y="-1070" width="300" height="970" as="geometry" />
         </mxCell>
         <mxCell id="CfCrwYAtJTKBQAErgNIQ-6" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfigWrappers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
           <mxGeometry x="-242" y="-1040" width="300" height="400" as="geometry" />
@@ -932,14 +932,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="CfCrwYAtJTKBQAErgNIQ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-5" target="CfCrwYAtJTKBQAErgNIQ-11" edge="1">
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-5" target="CfCrwYAtJTKBQAErgNIQ-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-92" y="-580" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ykmzy-f4c8bUWu5ri4jC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;strokeWidth=2;flowAnimation=1;fillColor=#f0a30a;strokeColor=#BD7000;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-1" target="ykmzy-f4c8bUWu5ri4jC-7" edge="1">
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;strokeWidth=2;flowAnimation=0;fillColor=#f0a30a;strokeColor=#BD7000;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-1" target="ykmzy-f4c8bUWu5ri4jC-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ykmzy-f4c8bUWu5ri4jC-1" value="ABI Bridge" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1;fillColor=#6a00ff;strokeColor=#3700CC;fillStyle=zigzag-line;fontFamily=Segoe UI Variable Text;fontColor=light-dark(#000000, #121212);" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
@@ -951,7 +951,7 @@
         <mxCell id="ykmzy-f4c8bUWu5ri4jC-3" value="Marshaller" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontStyle=1;fillColor=#6a00ff;strokeColor=#3700CC;fillStyle=auto;fontFamily=Segoe UI Variable Text;fontColor=#ffffff;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
           <mxGeometry x="703" y="-642.5" width="220" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ykmzy-f4c8bUWu5ri4jC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=11;strokeWidth=2;flowAnimation=1;fillColor=#f0a30a;strokeColor=#BD7000;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-7" target="ykmzy-f4c8bUWu5ri4jC-1" edge="1">
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=11;strokeWidth=2;flowAnimation=0;fillColor=#f0a30a;strokeColor=#BD7000;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-7" target="ykmzy-f4c8bUWu5ri4jC-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ykmzy-f4c8bUWu5ri4jC-7" value="&lt;font&gt;COM Interface&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;fillStyle=zigzag-line;fontFamily=Segoe UI Variable Text;fontColor=#000000;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
