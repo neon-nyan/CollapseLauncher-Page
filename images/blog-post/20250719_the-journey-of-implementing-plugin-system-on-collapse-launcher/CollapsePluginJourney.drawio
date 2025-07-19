@@ -1,0 +1,1333 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0" pages="3">
+  <diagram name="PInvokeApproach" id="pYx6xWyPzp8Mb8gUyf2C">
+    <mxGraphModel dx="5527" dy="3733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="o5ywXhEhHkXhvqVYYr16-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="-731" y="-1119" width="2290" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-125" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Managed C#:&lt;/span&gt;&lt;br&gt;CollapseLauncher.exe" style="rounded=1;whiteSpace=wrap;html=1;arcSize=1;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=right;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry width="790" height="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-115" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Managed C# (NativeAOT):&lt;/span&gt;&lt;br&gt;Hi3Helper.Plugin.***.dll" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;arcSize=1;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;fontColor=#333333;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1020" y="60" width="1270" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-117" target="VWMhmegfSZu71s8UUnAp-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="535" />
+              <mxPoint x="381" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-117" value="Application Main Code" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="30" y="90" width="300" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-3" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfigWrappers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="450" y="40" width="300" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-5" value="string? GetZoneName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="270" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-6" value="string GetProfileName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="320" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-7" value="string GetGameExecName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="370" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-8" value="void ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="420" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-9" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;GameVersionWrappers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="450" y="540" width="300" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-89" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;curved=0;fontFamily=Segoe UI Variable Text;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-91" target="VWMhmegfSZu71s8UUnAp-80" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="790" />
+              <mxPoint x="1020" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-10" value="void SetCurrentGameVersion(GameVersion)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="770" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-11" value="string? GetCurrentGamePath()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="820" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-12" value="GameVersion GetCurrentGameVersion()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="870" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-100" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;curved=0;strokeWidth=2;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-113" target="VWMhmegfSZu71s8UUnAp-97" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="940" />
+              <mxPoint x="960" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-13" value="void SetCurrentGamePath(string?)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="920" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-15" value="int ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="970" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-16" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Unmanaged Exports:&lt;/span&gt;&lt;br&gt;UnmanagedCallersOnly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1050" y="310" width="510" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-83" target="VWMhmegfSZu71s8UUnAp-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-156" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;jumpStyle=line;startArrow=classic;startFill=0;endArrow=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-17" target="VWMhmegfSZu71s8UUnAp-144" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-17" value="wchar_t* presetConfig_GetZoneName(PresetConfigData*)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="430" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-75" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-85" target="VWMhmegfSZu71s8UUnAp-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-157" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;jumpStyle=line;startArrow=classic;startFill=0;endArrow=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-18" target="VWMhmegfSZu71s8UUnAp-145" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="500" />
+              <mxPoint x="1780" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-18" value="wchar_t* presetConfig_GetProfileName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="480" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-76" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-87" target="VWMhmegfSZu71s8UUnAp-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-159" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;jumpStyle=line;startArrow=classic;startFill=0;endArrow=none;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-19" target="VWMhmegfSZu71s8UUnAp-146" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1800" y="550" />
+              <mxPoint x="1800" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-19" value="wchar_t* presetConfig_GetGameExecName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="530" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-22" value="Constructor" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="50" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-23" target="VWMhmegfSZu71s8UUnAp-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="102" />
+              <mxPoint x="420" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-23" target="VWMhmegfSZu71s8UUnAp-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="95" />
+              <mxPoint x="1020" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-23" value="-&amp;gt; Stores &lt;b&gt;PresetConfigData &lt;/b&gt;index" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;arcSize=21;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="80" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-24" value="Private Property" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="170" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-28" target="VWMhmegfSZu71s8UUnAp-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="215" />
+              <mxPoint x="420" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-28" target="VWMhmegfSZu71s8UUnAp-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="215" />
+              <mxPoint x="420" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-28" target="VWMhmegfSZu71s8UUnAp-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="215" />
+              <mxPoint x="420" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-28" target="VWMhmegfSZu71s8UUnAp-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="215" />
+              <mxPoint x="420" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-28" value="PresetConfigData* _config;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="200" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-29" target="VWMhmegfSZu71s8UUnAp-28" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="150" />
+              <mxPoint x="420" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-29" value="-&amp;gt; Get &lt;b&gt;PresetConfigData &lt;/b&gt;pointer based on index and store it to property: &lt;b&gt;_config&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;arcSize=21;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="120" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-30" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="240" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-42" target="VWMhmegfSZu71s8UUnAp-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="360" />
+              <mxPoint x="990" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-42" value="PresetConfigData* getData_PresetConfig(uint32)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="330" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-45" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="140" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-46" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="75" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-58" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-49" target="VWMhmegfSZu71s8UUnAp-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="990" y="410" />
+              <mxPoint x="990" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-49" value="GameVersionData* getData_GameVersionManager(uint32)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="380" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-50" value="Constructor" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="550" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-52" target="VWMhmegfSZu71s8UUnAp-56" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="602" />
+              <mxPoint x="420" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-52" target="VWMhmegfSZu71s8UUnAp-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="595" />
+              <mxPoint x="1020" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-52" value="-&amp;gt; Stores &lt;b&gt;GameVersionData &lt;/b&gt;index" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;arcSize=21;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="580" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-53" value="Private Property" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="670" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-54" target="VWMhmegfSZu71s8UUnAp-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="715" />
+              <mxPoint x="420" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-64" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-54" target="VWMhmegfSZu71s8UUnAp-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="715" />
+              <mxPoint x="420" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-65" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-54" target="VWMhmegfSZu71s8UUnAp-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="715" />
+              <mxPoint x="420" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-54" target="VWMhmegfSZu71s8UUnAp-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="715" />
+              <mxPoint x="420" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-67" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-54" target="VWMhmegfSZu71s8UUnAp-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="715" />
+              <mxPoint x="420" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-54" value="GameVersionData* _config;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="700" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-55" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-56" target="VWMhmegfSZu71s8UUnAp-54" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="650" />
+              <mxPoint x="420" y="708" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-56" value="-&amp;gt; Get&amp;nbsp;&lt;b&gt;GameVersion&lt;/b&gt;&lt;b&gt;Data &lt;/b&gt;pointer based on index and store it to property: &lt;b&gt;_config&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;arcSize=21;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="620" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-59" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="640" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-60" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="575" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-61" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="470" y="740" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-68" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="395" y="106" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-69" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="395" y="166" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-70" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="395" y="310" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-71" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="395" y="835" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-72" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="395" y="606" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-73" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="395" y="666" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-77" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="290" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-78" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="340" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-79" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="390" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-80" value="void gameVersion_SetCurrentGameVersion(GameVersionData*, GameVersionStruct*)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="580" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-98" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-109" target="VWMhmegfSZu71s8UUnAp-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="840" />
+              <mxPoint x="820" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-82" value="wchar_t* gameVerson_GetCurrentGamePath(GameVersionData*)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="630" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-17" target="VWMhmegfSZu71s8UUnAp-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="450" as="sourcePoint" />
+            <mxPoint x="730" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="450" />
+              <mxPoint x="960" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-83" value="&lt;b&gt;String Marshaller&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="804" y="272.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-18" target="VWMhmegfSZu71s8UUnAp-85" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="500" as="sourcePoint" />
+            <mxPoint x="730" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="500" />
+              <mxPoint x="940" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-85" value="&lt;b&gt;String Marshaller&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="804" y="322.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-19" target="VWMhmegfSZu71s8UUnAp-87" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="550" as="sourcePoint" />
+            <mxPoint x="730" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="920" y="550" />
+              <mxPoint x="920" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-87" value="&lt;b&gt;String Marshaller&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="804" y="372.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-90" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="770" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;curved=0;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-10" target="VWMhmegfSZu71s8UUnAp-91" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="790" as="sourcePoint" />
+            <mxPoint x="1070" y="600" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-91" value="GameVersion&lt;br&gt;Marshaller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="804" y="772.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-99" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-111" target="VWMhmegfSZu71s8UUnAp-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-96" value="GameVersionStruct* gameVerson_GetCurrentGameVersion()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="680" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-97" value="void gameVersion_SetCurrentGamePath(GameVersionData*, const wchar_t*)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="730" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-101" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="840" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-102" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="890" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-103" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="760" y="920" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;strokeWidth=2;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-82" target="VWMhmegfSZu71s8UUnAp-109" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="650" as="sourcePoint" />
+            <mxPoint x="730" y="840" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-109" value="&lt;b&gt;String Marshaller&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="804" y="822.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;strokeWidth=2;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-96" target="VWMhmegfSZu71s8UUnAp-111" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1070" y="700" as="sourcePoint" />
+            <mxPoint x="730" y="890" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="700" />
+              <mxPoint x="940" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-111" value="GameVersion&lt;br&gt;Marshaller" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="804" y="872.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;curved=0;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-13" target="VWMhmegfSZu71s8UUnAp-113" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="940" as="sourcePoint" />
+            <mxPoint x="1070" y="750" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-113" value="&lt;b&gt;String Marshaller&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="804" y="922.5" width="80" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-116" value="void ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1070" y="780" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.45;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-117" target="VWMhmegfSZu71s8UUnAp-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="381" y="579" />
+              <mxPoint x="381" y="761" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-126" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfig1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1960" y="120" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-140" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;curved=0;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-127" target="VWMhmegfSZu71s8UUnAp-133" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-127" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfig2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=16;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1960" y="410" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-128" value="o o o" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="420" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-152" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;curved=0;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-133" target="VWMhmegfSZu71s8UUnAp-42" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1720" y="525" />
+              <mxPoint x="1720" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-133" value="&lt;b&gt;PresetConfig &lt;/b&gt;to&lt;b&gt; PresetConfigData* &lt;/b&gt;vault" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1740" y="481.25" width="150" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-153" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;curved=0;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-137" target="VWMhmegfSZu71s8UUnAp-49" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1700" y="636" />
+              <mxPoint x="1700" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-137" value="&lt;b&gt;GameVersion&amp;nbsp;&lt;/b&gt;to&lt;b&gt; GameVersionData* &lt;/b&gt;vault" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1740" y="592.5" width="150" height="87.5" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-139" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.937;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=0;endArrow=none;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;curved=0;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-133" target="VWMhmegfSZu71s8UUnAp-126" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-141" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1900" y="470" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-144" value="string? GetZoneName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="160" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-145" value="string GetProfileName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="210" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-146" value="string GetGameExecName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="260" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-147" value="void ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="310" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-148" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="130" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-154" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1655" y="330" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-155" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1655" y="380" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-162" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1655" y="430" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-163" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1655" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-164" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1655" y="530" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-165" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;GameVersion1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1960" y="587.5" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-166" value="void SetCurrentGameVersion(GameVersion)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="627.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-186" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;curved=0;fillColor=#f8cecc;strokeColor=#b85450;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-167" target="VWMhmegfSZu71s8UUnAp-82" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="697" />
+              <mxPoint x="1950" y="710" />
+              <mxPoint x="1640" y="710" />
+              <mxPoint x="1640" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-167" value="string? GetCurrentGamePath()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="677.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-187" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;curved=0;fillColor=#f8cecc;strokeColor=#b85450;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-168" target="VWMhmegfSZu71s8UUnAp-96" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1950" y="748" />
+              <mxPoint x="1950" y="730" />
+              <mxPoint x="1630" y="730" />
+              <mxPoint x="1630" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-168" value="GameVersion GetCurrentGameVersion()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="727.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-169" value="void SetCurrentGamePath(string?)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="777.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-170" value="int ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="827.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-176" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="597.5" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-181" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;curved=0;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-177" target="VWMhmegfSZu71s8UUnAp-137" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-177" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;GameVersion2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=16;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1960" y="930" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-178" value="o o o" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1980" y="940" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-180" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;startFill=1;startArrow=classic;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;curved=0;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-137" target="VWMhmegfSZu71s8UUnAp-165" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-182" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1900" y="606" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-183" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;align=center;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1900" y="912.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-184" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-80" target="VWMhmegfSZu71s8UUnAp-166" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1650" y="600" />
+              <mxPoint x="1650" y="690" />
+              <mxPoint x="1940" y="690" />
+              <mxPoint x="1940" y="648" />
+              <mxPoint x="1980" y="648" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-188" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;curved=0;fillColor=#d5e8d4;strokeColor=#82b366;jumpStyle=line;" parent="o5ywXhEhHkXhvqVYYr16-1" source="VWMhmegfSZu71s8UUnAp-97" target="VWMhmegfSZu71s8UUnAp-169" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-189" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1590" y="630" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-190" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1590" y="680" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-191" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1590" y="600" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="VWMhmegfSZu71s8UUnAp-192" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="o5ywXhEhHkXhvqVYYr16-1" vertex="1">
+          <mxGeometry x="1590" y="750" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="PInvokeComHybridApproach" id="PEOL1qhVAOadjkp-3Joz">
+    <mxGraphModel dx="3177" dy="2451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-0" />
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-1" parent="CfCrwYAtJTKBQAErgNIQ-0" />
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-2" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Managed C#:&lt;/span&gt;&lt;br&gt;CollapseLauncher.exe" style="rounded=1;whiteSpace=wrap;html=1;arcSize=1;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=right;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-682" y="-1090" width="1141" height="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="dH7y4kBBSUeAMfVCxAT3-0" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Managed C# (NativeAOT):&lt;/span&gt;&lt;br&gt;Hi3Helper.Plugin.***.dll" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;arcSize=1;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;fontColor=#333333;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="829" y="-1030" width="680" height="940" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-0" value="Shared Project/Code&lt;br&gt;&lt;b&gt;Hi3Helper.Plugin.Core&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="299" y="-760" width="681" height="429" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-5" target="CfCrwYAtJTKBQAErgNIQ-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-92" y="-600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-5" value="Application Main Code" style="rounded=1;whiteSpace=wrap;html=1;arcSize=2;dashed=1;fillStyle=auto;strokeWidth=2;glass=0;align=center;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-662" y="-990" width="300" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-6" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfigWrappers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-242" y="-1040" width="300" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-7" value="string? GetZoneName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-850" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-8" value="string GetProfileName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-800" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-9" value="string GetGameExecName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-750" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-10" value="void ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-700" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-11" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;GameVersionWrappers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-242" y="-540" width="300" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;curved=0;fontFamily=Segoe UI Variable Text;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-13" target="5Bu83KweY9mPDpEIf849-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="22" y="-290" as="sourcePoint" />
+            <mxPoint x="208" y="-480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="108" y="-350" />
+              <mxPoint x="108" y="-415" />
+              <mxPoint x="279" y="-415" />
+              <mxPoint x="279" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-13" value="void SetCurrentGameVersion(GameVersion)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-370" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-14" value="string? GetCurrentGamePath()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-320" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-15" value="GameVersion GetCurrentGameVersion()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-270" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;curved=0;strokeWidth=2;jumpStyle=line;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-17" target="5Bu83KweY9mPDpEIf849-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="22" y="-140" as="sourcePoint" />
+            <mxPoint x="208" y="-330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="228" y="-200" />
+              <mxPoint x="228" y="-415" />
+              <mxPoint x="279" y="-415" />
+              <mxPoint x="279" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-17" value="void SetCurrentGamePath(string?)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-220" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-18" value="int ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-170" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-29" value="Constructor" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-1030" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-33" value="Private Property" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-940" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-38" target="CfCrwYAtJTKBQAErgNIQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-895" />
+              <mxPoint x="-272" y="-830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-38" target="CfCrwYAtJTKBQAErgNIQ-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-895" />
+              <mxPoint x="-272" y="-780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-38" target="CfCrwYAtJTKBQAErgNIQ-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-895" />
+              <mxPoint x="-272" y="-730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-38" target="CfCrwYAtJTKBQAErgNIQ-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-895" />
+              <mxPoint x="-272" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-38" value="IPluginPresetConfig _instance;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-910" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-39" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;curved=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-40" target="CfCrwYAtJTKBQAErgNIQ-38" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-955" />
+              <mxPoint x="-272" y="-902" />
+              <mxPoint x="-222" y="-902" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-40" value="-&amp;gt; Get the &lt;b&gt;IPluginPresetConfig &lt;/b&gt;COM Instance Directly and store&amp;nbsp;to property: &lt;b&gt;_instance&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;arcSize=15;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-1000" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-41" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-880" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="Z6-P_ZQEer-qZ7AA3qO0-0" target="CfCrwYAtJTKBQAErgNIQ-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="-720" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="238" y="-680" />
+              <mxPoint x="238" y="-970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-44" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-970" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="5Bu83KweY9mPDpEIf849-0" target="CfCrwYAtJTKBQAErgNIQ-60" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="-670" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="279" y="-680" />
+              <mxPoint x="279" y="-415" />
+              <mxPoint x="228" y="-415" />
+              <mxPoint x="228" y="-480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-48" value="Constructor" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-530" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-52" value="Private Property" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-460" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-53" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-58" target="CfCrwYAtJTKBQAErgNIQ-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-415" />
+              <mxPoint x="-272" y="-350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-58" target="CfCrwYAtJTKBQAErgNIQ-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-415" />
+              <mxPoint x="-272" y="-300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-55" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-58" target="CfCrwYAtJTKBQAErgNIQ-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-415" />
+              <mxPoint x="-272" y="-250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-56" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-58" target="CfCrwYAtJTKBQAErgNIQ-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-415" />
+              <mxPoint x="-272" y="-200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-58" target="CfCrwYAtJTKBQAErgNIQ-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-415" />
+              <mxPoint x="-272" y="-150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-58" value="IGameVersion _instance;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-430" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bT8lN6waO7HKimm4yluY-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;curved=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-60" target="CfCrwYAtJTKBQAErgNIQ-58" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-272" y="-470" />
+              <mxPoint x="-272" y="-422" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-60" value="-&amp;gt; Get the &lt;b&gt;IGameVersion &lt;/b&gt;COM instance Directly and store it to property: &lt;b&gt;_instance&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;arcSize=21;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-500" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-61" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-63" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-222" y="-400" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-65" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-297" y="-939" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-66" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-297" y="-810" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-67" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=-90;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-297" y="-245" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-70" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-830" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-71" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-780" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-72" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-730" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="5Bu83KweY9mPDpEIf849-0" target="CfCrwYAtJTKBQAErgNIQ-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="-630" as="sourcePoint" />
+            <mxPoint x="22" y="-790" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="238" y="-680" />
+              <mxPoint x="238" y="-830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="5Bu83KweY9mPDpEIf849-0" target="CfCrwYAtJTKBQAErgNIQ-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="-580" as="sourcePoint" />
+            <mxPoint x="22" y="-740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="238" y="-680" />
+              <mxPoint x="238" y="-780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;curved=0;flowAnimation=0;jumpStyle=line;fontFamily=Segoe UI Variable Text;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="5Bu83KweY9mPDpEIf849-0" target="CfCrwYAtJTKBQAErgNIQ-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="-530" as="sourcePoint" />
+            <mxPoint x="22" y="-690" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="238" y="-680" />
+              <mxPoint x="238" y="-730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-82" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-370" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-88" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-300" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-89" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-250" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-90" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="68" y="-220" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;strokeWidth=2;jumpStyle=line;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="5Bu83KweY9mPDpEIf849-0" target="CfCrwYAtJTKBQAErgNIQ-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="-430" as="sourcePoint" />
+            <mxPoint x="22" y="-240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="279" y="-680" />
+              <mxPoint x="279" y="-415" />
+              <mxPoint x="148" y="-415" />
+              <mxPoint x="148" y="-300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;curved=0;strokeWidth=2;jumpStyle=line;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="5Bu83KweY9mPDpEIf849-0" target="CfCrwYAtJTKBQAErgNIQ-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="208" y="-380" as="sourcePoint" />
+            <mxPoint x="22" y="-190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="279" y="-680" />
+              <mxPoint x="279" y="-415" />
+              <mxPoint x="188" y="-415" />
+              <mxPoint x="188" y="-250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CfCrwYAtJTKBQAErgNIQ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;shape=link;flowAnimation=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="CfCrwYAtJTKBQAErgNIQ-5" target="CfCrwYAtJTKBQAErgNIQ-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-92" y="-580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fontSize=11;strokeWidth=2;flowAnimation=1;fillColor=#f0a30a;strokeColor=#BD7000;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-1" target="ykmzy-f4c8bUWu5ri4jC-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-1" value="ABI Bridge" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;fontStyle=1;fillColor=#6a00ff;strokeColor=#3700CC;fillStyle=zigzag-line;fontFamily=Segoe UI Variable Text;fontColor=light-dark(#000000, #121212);" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="683" y="-722.5" width="260" height="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-2" value="Function VTables" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontStyle=1;fillColor=#6a00ff;strokeColor=#3700CC;fillStyle=auto;fontFamily=Segoe UI Variable Text;fontColor=#ffffff;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="703" y="-702.5" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-3" value="Marshaller" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontStyle=1;fillColor=#6a00ff;strokeColor=#3700CC;fillStyle=auto;fontFamily=Segoe UI Variable Text;fontColor=#ffffff;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="703" y="-642.5" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fontSize=11;strokeWidth=2;flowAnimation=1;fillColor=#f0a30a;strokeColor=#BD7000;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-7" target="ykmzy-f4c8bUWu5ri4jC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-7" value="&lt;font&gt;COM Interface&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=5;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;fillStyle=zigzag-line;fontFamily=Segoe UI Variable Text;fontColor=#000000;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="683" y="-516.25" width="260" height="145.25" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-8" target="NzZxStfozYB2safVh15E-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-8" value="IPluginPresetConfig" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;fillStyle=auto;fontFamily=Segoe UI Variable Text;fontColor=#ffffff;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="703" y="-500" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="ykmzy-f4c8bUWu5ri4jC-9" target="NzZxStfozYB2safVh15E-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-9" value="IGameVersion" style="rounded=1;whiteSpace=wrap;html=1;arcSize=14;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=middle;fontStyle=1;fillColor=#60a917;strokeColor=#2D7600;fillStyle=auto;fontFamily=Segoe UI Variable Text;fontColor=#ffffff;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="703" y="-440" width="220" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ykmzy-f4c8bUWu5ri4jC-12" value="Invoke" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="763" y="-554" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bT8lN6waO7HKimm4yluY-1" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;rotation=-90;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="-297" y="-456" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;curved=0;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-0" target="ykmzy-f4c8bUWu5ri4jC-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1049" y="-788" />
+              <mxPoint x="1049" y="-475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-0" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfig1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1179" y="-975" width="300" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="dECnS4V-0UjAxKBvFCWN-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-1" target="ykmzy-f4c8bUWu5ri4jC-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1329" y="-611" />
+              <mxPoint x="1049" y="-611" />
+              <mxPoint x="1049" y="-475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;PresetConfig2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=16;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1179" y="-685" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-2" value="o o o" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-675" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-0" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=0;strokeWidth=2;startArrow=none;startFill=0;endArrow=classic;fillColor=#f8cecc;strokeColor=#b85450;endFill=1;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-3" target="ykmzy-f4c8bUWu5ri4jC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="-915" />
+              <mxPoint x="1080" y="-690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-3" value="string? GetZoneName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-935" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=0;strokeWidth=2;startArrow=none;startFill=0;endArrow=classic;fillColor=#f8cecc;strokeColor=#b85450;endFill=1;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-4" target="ykmzy-f4c8bUWu5ri4jC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="-865" />
+              <mxPoint x="1080" y="-690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-4" value="string GetProfileName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-885" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;curved=0;strokeWidth=2;startArrow=none;startFill=0;endArrow=classic;fillColor=#f8cecc;strokeColor=#b85450;endFill=1;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-5" target="ykmzy-f4c8bUWu5ri4jC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1080" y="-815" />
+              <mxPoint x="1080" y="-690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-5" value="string GetGameExecName()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-835" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-6" value="void ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-785" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-7" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-965" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dECnS4V-0UjAxKBvFCWN-1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-8" target="ykmzy-f4c8bUWu5ri4jC-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-8" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;GameVersion1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=2;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1179" y="-507.5" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;startArrow=classic;startFill=0;endArrow=none;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-9" target="ykmzy-f4c8bUWu5ri4jC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1079" y="-448" />
+              <mxPoint x="1079" y="-665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-9" value="void SetCurrentGameVersion(GameVersion)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-467.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;jumpStyle=line;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-10" target="ykmzy-f4c8bUWu5ri4jC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1079" y="-398" />
+              <mxPoint x="1079" y="-690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-10" value="string? GetCurrentGamePath()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-417.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;curved=0;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;jumpStyle=line;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-11" target="ykmzy-f4c8bUWu5ri4jC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="578" y="-691" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1079" y="-348" />
+              <mxPoint x="1079" y="-690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-11" value="GameVersion GetCurrentGameVersion()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-367.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="edvrqD0iC9Wahl-nv1RD-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;curved=0;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;startArrow=classic;startFill=0;endArrow=none;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-12" target="ykmzy-f4c8bUWu5ri4jC-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1079" y="-298" />
+              <mxPoint x="1079" y="-665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-12" value="void SetCurrentGamePath(string?)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-317.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-13" value="int ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-267.5" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-14" value="Methods" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-497.5" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dECnS4V-0UjAxKBvFCWN-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;curved=0;jumpStyle=line;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="1jZhIqx1vqhavG0wV9T0-15" target="ykmzy-f4c8bUWu5ri4jC-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-15" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;C# Contract:&lt;/span&gt;&lt;br&gt;GameVersion2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=16;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1179" y="-165" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="1jZhIqx1vqhavG0wV9T0-16" value="o o o" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI Variable Text;fontStyle=1" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1199" y="-155" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MyD4tPoiqFjiYlaUomhB-0" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=0;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="989" y="-495.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="MyD4tPoiqFjiYlaUomhB-1" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=0;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="989" y="-436" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="veJvd_9VfTD-mC7ahu4T-0" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1140" y="-935" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="veJvd_9VfTD-mC7ahu4T-1" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1140" y="-885" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="veJvd_9VfTD-mC7ahu4T-2" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1140" y="-835" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="veJvd_9VfTD-mC7ahu4T-3" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1140" y="-417.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="veJvd_9VfTD-mC7ahu4T-4" value="Out" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1140" y="-367.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="veJvd_9VfTD-mC7ahu4T-5" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1140" y="-467.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="veJvd_9VfTD-mC7ahu4T-6" value="In" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="1140" y="-317.5" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Z6-P_ZQEer-qZ7AA3qO0-0" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;Unmanaged Exports:&lt;/span&gt;&lt;br&gt;UnmanagedCallersOnly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=8;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="329" y="-710" width="320" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="5Bu83KweY9mPDpEIf849-0" value="int&amp;nbsp;TryGetApiExport(char*, void**)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="338" y="-700" width="301" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-0" value="API Lookup Table" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=4;dashed=1;fillStyle=hatch;strokeWidth=2;glass=0;align=left;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;fontStyle=1;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="328.5" y="-601" width="320" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=0;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="CfCrwYAtJTKBQAErgNIQ-1" source="NzZxStfozYB2safVh15E-1" target="5Bu83KweY9mPDpEIf849-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-1" value="void* GetPlugin()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="338" y="-592.5" width="301" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-2" value="GameVersion* GetPluginStandardVersion()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="338.5" y="-540" width="301" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-3" value="GameVersion* GetPluginStandardVersion()" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="338.5" y="-487.5" width="301" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-8" value="void ..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="338" y="-435" width="301" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-9" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=0;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="473.5" y="-646" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NzZxStfozYB2safVh15E-10" value="Ref" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontStyle=1;arcSize=0;fillColor=#e1d5e7;strokeColor=#9673a6;rotation=90;align=center;" parent="CfCrwYAtJTKBQAErgNIQ-1" vertex="1">
+          <mxGeometry x="666" y="-552.5" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ArkBvvjxexm1sRtpG547" name="COMVTableInheritance">
+    <mxGraphModel dx="2474" dy="1349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-58" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="145" y="144" width="878.125" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-1" value="COM Interface&lt;br&gt;&lt;b&gt;IPluginPresetConfig&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=left;arcSize=2;fontFamily=Segoe UI Variable Text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry width="320" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-4" value="Virtual Table" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=3;fillStyle=auto;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontStyle=1" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="20" y="30" width="280" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-11" value="Built-in COM Functions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;arcSize=7;fillStyle=auto;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontStyle=0;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="32.5" y="60" width="255" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-8" value="void QueryInterface(REFIID, void**)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="45" y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-9" value="ULONG AddRef()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="45" y="120" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-10" value="ULONG Release()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="45" y="170" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-12" value="User-owned Functions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;arcSize=7;fillStyle=auto;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontStyle=0;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="32.5" y="250" width="255" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-13" value="void* ABI_GetGameConfigManager()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="45" y="260" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-14" value="void* ABI_GetGameInstaller()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="45" y="310" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-15" value="void* ABI_GetGameVersionManager()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="45" y="360" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-16" value="COM Interface&lt;br&gt;&lt;b&gt;IPluginPresetConfig2 : IPluginPresetConfig&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;labelPosition=center;verticalLabelPosition=top;align=left;arcSize=2;fontFamily=Segoe UI Variable Text;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="350" width="320" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-17" value="Virtual Table" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fillColor=#ffe6cc;strokeColor=#d79b00;arcSize=3;fillStyle=auto;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontStyle=1" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="370" y="30" width="280" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-18" value="Built-in COM Functions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;arcSize=5;fillStyle=auto;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontStyle=0;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="382.5" y="60" width="255" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-28" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;strokeWidth=3;curved=0;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=50;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-19" target="7REVzqNVjr_wBZTlSwkM-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="90" />
+              <mxPoint x="680" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-19" value="void QueryInterface(REFIID, void**)" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="70" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-20" value="ULONG AddRef()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="120" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-21" value="ULONG Release()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;dashPattern=8 8;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="170" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-22" value="User-owned Functions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;arcSize=3;fillStyle=auto;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontStyle=0;fontColor=#333333;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="382.5" y="250" width="255" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-32" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;curved=0;endArrow=none;endFill=0;opacity=50;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-23" target="7REVzqNVjr_wBZTlSwkM-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="280" />
+              <mxPoint x="680" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-23" value="void* ABI_GetGameConfigManager()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;glass=0;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="260" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-24" value="void* ABI_GetGameInstaller()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="310" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-25" value="void* ABI_GetGameVersionManager()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;dashed=1;dashPattern=8 8;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="360" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-35" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=none;endFill=0;curved=0;dashed=1;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-26" target="7REVzqNVjr_wBZTlSwkM-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="430" />
+              <mxPoint x="680" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-26" value="void* ABI_GetGameRepairManager()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="410" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-27" value="void* ABI_GetGameCacheManager()" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="395" y="460" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-31" value="Derived from &lt;b&gt;IPluginPresetConfig&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontSize=10;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="637.5" y="125" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-33" value="Derived from &lt;b&gt;IPluginPresetConfig&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontSize=10;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;opacity=50;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="637.5" y="315" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-36" value="New Functions" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontSize=10;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="674.0600000000001" y="438" width="66.87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-8" target="7REVzqNVjr_wBZTlSwkM-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-9" target="7REVzqNVjr_wBZTlSwkM-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;endArrow=classic;endFill=1;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-10" target="7REVzqNVjr_wBZTlSwkM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-13" target="7REVzqNVjr_wBZTlSwkM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-14" target="7REVzqNVjr_wBZTlSwkM-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="7REVzqNVjr_wBZTlSwkM-58" source="7REVzqNVjr_wBZTlSwkM-15" target="7REVzqNVjr_wBZTlSwkM-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-44" value="Inherit to&lt;br&gt;&lt;b&gt;IPluginPresetConfig2&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontSize=10;rotation=90;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=0;dashed=1;dashPattern=8 8;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="265" y="125" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-45" value="Inherit to&lt;br&gt;&lt;b&gt;IPluginPresetConfig2&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Segoe UI Variable Text;fontSize=10;rotation=90;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;dashed=1;dashPattern=8 8;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="265" y="315" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-47" value="Virtual Table&lt;div&gt;&lt;b&gt;Offsets&lt;/b&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;labelPosition=center;verticalLabelPosition=top;align=left;verticalAlign=bottom;fontFamily=Segoe UI Variable Text;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="60" width="87" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-48" value="vtable[0h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="60" width="87" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-49" value="vtable[8h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="110" width="87.07" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-50" value="vtable[10h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#e1d5e7;strokeColor=#9673a6;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="160" width="87.07" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-51" value="vtable[18h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="250" width="87" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-52" value="vtable[20h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="300" width="87.07" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-53" value="vtable[28h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="350" width="87.07" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-54" value="vtable[30h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="400" width="87.07" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-55" value="vtable[38h]" style="rounded=1;whiteSpace=wrap;html=1;align=center;spacingLeft=8;spacingRight=8;fontFamily=Segoe UI Variable Text;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=0;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="740" y="450" width="87.07" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7REVzqNVjr_wBZTlSwkM-57" value="&lt;b&gt;Note:&lt;br&gt;&lt;/b&gt;•&amp;nbsp;Each offset is advancing +8 bytes since it&#39;s 64-bit wide&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;•&lt;/span&gt;&amp;nbsp;The offset unit is in Hexadecimal&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;fontFamily=Segoe UI Variable Text;fontSize=11;" vertex="1" parent="7REVzqNVjr_wBZTlSwkM-58">
+          <mxGeometry x="634.06" y="253.42999999999995" width="438.13" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
